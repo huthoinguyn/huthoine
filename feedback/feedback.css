@@ -1,0 +1,10 @@
+#content {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 164px;
+}
+#content img.img {
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=feedback.css.map */

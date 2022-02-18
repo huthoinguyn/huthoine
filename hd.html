@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form Đăng Ký</title>
+    <link href="hd.css" rel="stylesheet" />
+</head>
+<body>
+    <form class="for">
+        <!-- <div class="for"> -->
+            <div class="form-group">
+                <label>TÊN ĐĂNG NHẬP:</label><br />
+                <input tye="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>GIỚI TÍNH:</label><br />
+                <label><input name="gender" type="radio" checked />Nam</label>
+                <label><input name="gender" type="radio" checked />Nữ</label>
+            </div>
+            <div class="form-group">
+                <label>HÌNH ẢNH:</label><br />
+                <input type="file" />
+            </div>
+            <div class="form-group">
+                <label>QUỐC TỊCH:</label><br />
+                <select>
+                    <option class="form-control">Việt Nam</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>SỞ THÍCH:</label>
+                <label><input name="hobby" type="checkbox" value="1" />Thể thao</label>
+                <label><input name="hobby" type="checkbox" value="2" />Âm thực</label>
+                <label><input name="hobby" type="checkbox" value="3" />Du lịch</label>
+                <label><input name="hobby" type="checkbox" value="4" />Khác</label>
+            </div>
+            <div class="form-group">
+                <label>GHI CHÚ:</label><br />
+                <textarea rows="5" cols="40" class="form-control"></textarea>
+            </div>
+            <div>
+                <button class="button">Đăng nhập</button>
+
+            </div>
+        <!-- </div> -->
+        
+    </form>
+    <div class="support">
+        <img src="../img/hotro.png" alt="" class="support__img">
+        <span class="support__not"></span>
+    </div>
+    <div class="help">
+        <div class="header">
+            <div class="header__img">
+                <img src="../img/favicon_io/favicon.ico" alt="">
+            </div>
+            <div class="header__title">
+                <h3 class="title">Hổ trợ khách hàng</h3>
+                <p class="desc"> Chúng tôi sẽ phản hồi trong giây lát...</p>
+            </div>
+            <i class="fas fa-times close-icon"></i>
+        </div>
+        <div class="body">
+            <span class="staff">Nhân viên TGDD</span>
+            <div class="message">
+                <p class="">&ensp; Chào bạn, TGDD đã sẵn sàng giải đáp thắc mắc cho bạn. Bạn cần tư vấn những vấn đề gì?</p>
+            </div>
+            <button class="advise">Tư vấn sản phẩm </button>
+            <button class="care">Chăm sóc khách hàng</button>
+            <input type="text" placeholder="Hãy nhập gì đó..." class="import">
+        </div>
+    </div>
+</div>
+
+<script>
+    const help = document.querySelector(".help");
+    const support = document.querySelector(".support");
+    const close = document.querySelector(".close-icon");
+    support.addEventListener("click", function (event) {
+        help.classList.add("is-show");
+        support.classList.add("is-hidden");
+    });
+    close.addEventListener("click", function (event) {
+        help.classList.remove("is-show");
+        support.classList.remove("is-hidden");
+    });
+    // const adressbtn = document.querySelector("#adress-form");
+    // const adressClass = document.querySelector(".adress-form");
+    // adressbtn.addEventListener("click",function(){
+    //     adressClass.style.display="flex";
+    // });
+    AOS.init();
+</script>
+</body>
+</html>

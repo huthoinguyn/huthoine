@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: #ff60bb;
+    list-style: none;
+}
+.menu li{
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    background: url("./img/B1.png") no-repeat 10px center;
+    font-variant: small-caps;
+    padding-left: 30px;
+}
+.menu li a:hover{
+    text-decoration: none;
+    color: #fff;
+    background: url("./img/B2.png") no-repeat 10px center;
+    font-variant: small-caps;
+    padding-left: 30px;
+}

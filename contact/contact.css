@@ -1,0 +1,124 @@
+#content {
+  margin-top: 140px;
+  background-color: #525252;
+  min-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#content .category {
+  padding-top: 24px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: lowercase;
+}
+#content .title {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 48px;
+  position: relative;
+}
+#content .title::before {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+
+  /* ****** */
+
+  display: flex;
+  flex-wrap: wrap;
+}
+#content .title::after {
+  content: "";
+  width: 70px;
+  height: 2px;
+  background-color: #ff7200;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#content .container {
+  width: 100%;
+  display: flex;
+}
+#content .container .content__left,
+#content .container .content__right {
+  width: 50%;
+  display: flex;
+  margin: 48px;
+}
+#content .container .content__left {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#content .container .content__left input,
+#content .container .content__left textarea {
+  background-color: #525252;
+  border-radius: 4px;
+  outline: none;
+  border: 0.5px solid #757575;
+}
+#content .container .content__left input:focus,
+#content .container .content__left textarea:focus {
+  border: 2px solid #757575;
+  color: #757575;
+}
+#content .container .content__left .form__name,
+#content .container .content__left .form__email {
+  width: calc(50% - 24px);
+  margin: 12px;
+  padding: 9px 12px;
+}
+#content .container .content__left .form__message {
+  width: calc(100% - 24px);
+  padding: 12px;
+}
+#content .container .content__left .form__submit {
+  width: calc(100% - 24px);
+  background-color: #ff7200;
+  padding: 9px 12px;
+  border: none;
+  color: #fff;
+  margin-top: 16px;
+}
+#content .container .content__right {
+  flex-direction: column;
+  justify-content: space-around;
+}
+#content .container .content__right .item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#content .container .content__right .item__icon {
+  margin-left: 56px;
+  width: 64px;
+  height: 64px;
+  background-color: #ff7200;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content .container .content__right .item__icon .icon {
+  font-size: 24px;
+}
+#content .container .content__right .item__info {
+  margin-left: 16px;
+}
+#content .container .content__right .item__title {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=contact.css.map */

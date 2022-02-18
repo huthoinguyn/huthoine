@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="../header/header.css" />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+
+    <title>Document</title>
+  </head>
+  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+
+  <body>
+    <div id="main">
+      <div id="header">
+        <div class="header">
+          <h2 class="logo">TheGioiDiDong</h2>
+          <div class="search__cart">
+            <input type="text" placeholder="Bạn tìm gì..." class="search" />
+            <button class="cart">
+              <i class="fas fa-shopping-cart"></i>
+              Giỏ hàng
+            </button>
+          </div>
+        </div>
+        <div id="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="../index.html">Trang chủ</a></li>
+            <li class="nav__item">
+              <a href="../product/product.html">Sản phẩm</a>
+            </li>
+            <li class="nav__item"><a href="#">Giới thiệu</a></li>
+            <li class="nav__item">
+              <a href="../feedback/feedback.html">Góp ý</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="slider">
+        <h3 class="about">About US</h3>
+      </div>
+      <!-- <div id="content">
+            <div class="content__items">
+                <h3 class="content__title" data-aos="fade-right" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">Giới thiệu chung</h3>
+                <div class="intro__list" >
+                    <div class="intro__items">
+                        <div class="intro__desc" data-aos="fade-right" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                            <p>
+                                Công ty Cổ phần Xây dựng và Đầu tư thương mại MWG sở hữu chuỗi cửa hàng Thế Giới Di Động
+                                - là
+                                nhà bán lẻ hàng đầu, chuyên cung cấp các sản phẩm công nghệ chính hãng tại thị trường
+                                Việt Nam.
+                                Năm 1996, Thế Giới Di Động được thành lập, từng bước trở thành địa chỉ đáng tin cậy của
+                                người
+                                tiêu dùng Việt. Với khẩu hiệu “Nếu những gì chúng tôi không có, nghĩa là bạn không cần”,
+                                chúng
+                                tôi đã, đang và sẽ tiếp tục nỗ lực đem đến các sản phẩm công nghệ chính hãng đa dạng,
+                                phong phú
+                                đi kèm mức giá tốt nhất phục vụ nhu cầu của quý khách hàng.
+                            </p>
+                        </div>
+                        <div class="intro__img" >
+                            <img src="../img/baitin.jpg" alt="" data-aos="fade-left" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                        </div>
+                    </div>
+                    <div class="intro__items" >
+                        <div class="intro__img">
+                            <img src="../img/tgdd.png" alt="" data-aos="fade-right" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                        </div>
+                        <div class="intro__desc" data-aos="fade-left" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                            <p>
+                                Sau hơn 20 năm phát triển, Thế Giới Di Động đã trở thành cái tên không còn xa lạ với
+                                người tiêu
+                                dùng trong nước. Hiện nay chúng tôi đang sở hữu mạng lưới hơn 60 chi nhánh phủ tại gần
+                                40 tỉnh
+                                thành trên cả nước, trong đó bao gồm hai trung tâm bảo hành tại Hà Nội và một trung tâm
+                                bảo hành
+                                tại thành phố Hồ Chí Minh. Đến với chuỗi cửa hàng của Thế Giới Di Động, quý khách có thể
+                                hoàn
+                                toàn yên tâm về uy tín, chất lượng sản phẩm với mức giá rẻ hơn khoảng 15-20% so với giá
+                                bán trên
+                                thị trường. Song song với đó, chúng tôi cũng luôn nỗ lực phục vụ đem đến trải nghiệm
+                                dịch vụ tốt
+                                nhất cho khách hàng.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content__items">
+                <h3 class="content__title">Những dấu mốc quan trọng</h3>
+                <div class="timeline">
+                    <div class="time__items">
+                        <div class="time">1996</div>
+                        <div class="event">Thành lập cửa hàng Thế Giới Di Động đầu tiên tọa lạc trên con phố sầm uất của
+                            Thủ
+                            đô Hà Nội ở địa chỉ 194 Lê Duẩn.
+                        </div>
+                    </div>
+                    <div class="time__items">
+                        <div class="time">2000</div>
+                        <div class="event">Thành lập cửa hàng Thế Giới Di Động đầu tiên tọa lạc trên con phố sầm uất của
+                            Thủ
+                            đô Hà Nội ở địa chỉ 194 Lê Duẩn.
+                        </div>
+                    </div>
+                    <div class="time__items">
+                        <div class="time">2006</div>
+                        <div class="event">Thành lập cửa hàng Thế Giới Di Động đầu tiên tọa lạc trên con phố sầm uất của
+                            Thủ
+                            đô Hà Nội ở địa chỉ 194 Lê Duẩn.
+                        </div>
+                    </div>
+                    <div class="time__items">
+                        <div class="time">2016</div>
+                        <div class="event">Thành lập cửa hàng Thế Giới Di Động đầu tiên tọa lạc trên con phố sầm uất của
+                            Thủ
+                            đô Hà Nội ở địa chỉ 194 Lê Duẩn.
+                        </div>
+                    </div>
+                    <div class="time__items">
+                        <div class="time">2019</div>
+                        <div class="event">Thành lập cửa hàng Thế Giới Di Động đầu tiên tọa lạc trên con phố sầm uất của
+                            Thủ
+                            đô Hà Nội ở địa chỉ 194 Lê Duẩn.
+                        </div>
+                    </div>
+                    <div class="time__items">
+                        <div class="time">2020</div>
+                        <div class="event">Thành lập cửa hàng Thế Giới Di Động đầu tiên tọa lạc trên con phố sầm uất của
+                            Thủ
+                            đô Hà Nội ở địa chỉ 194 Lê Duẩn.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+      <div id="content">
+        <p class="category">Get in touch</p>
+        <h3 class="title">Contact us</h3>
+        <div class="container">
+          <form action="" class="content__left">
+            <input type="text" class="form__name" placeholder="Tên" />
+            <input type="text" class="form__email" placeholder="Email" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="form__message"
+              placeholder="Nội dung"
+            ></textarea>
+            <input type="submit" placeholder="Gửi" class="form__submit" />
+          </form>
+          <div class="content__right">
+            <a href="" class="item">
+              <p class="item__icon">
+                <i class="fas fa-map-marker-alt icon"></i>
+              </p>
+              <div class="item__info">
+                <h3 class="item__title">Địa chỉ</h3>
+                <p>abc</p>
+              </div>
+            </a>
+            <a href="" class="item">
+              <p class="item__icon">
+                <i class="fas fa-map-marker-alt icon"></i>
+              </p>
+              <div class="item__info">
+                <h3 class="item__title">Điện thoại</h3>
+                <p>abc</p>
+              </div>
+            </a>
+            <a href="" class="item">
+              <p class="item__icon">
+                <i class="fas fa-map-marker-alt icon"></i>
+              </p>
+              <div class="item__info">
+                <h3 class="item__title">Email</h3>
+                <p>abc</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.8776081579113!2d105.75497671471189!3d10.026957492832688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a089d294a53693%3A0xf3d0fb7758da72d0!2zVHLGsOG7nW5nIGNhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYyBD4bqnbiBUaMah!5e0!3m2!1svi!2s!4v1645095278001!5m2!1svi!2s"
+          width="100%"
+          height="600px"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="support">
+        <img src="../img/hotro.png" alt="" class="support__img" />
+        <span class="support__not"></span>
+      </div>
+      <div id="footer">
+        <div class="left">
+          <h3 class="title">Thông tin liên hệ</h3>
+          <span class="info">
+            <i class="far fa-building icon"></i>
+            Văn phòng điều hành:
+            <p class="address">
+              Công ty TNHH Một Thành Viên Công Nghệ Thông Tin Thế Giới Di Động
+              Lô T2-1.2 đường D1, Khu Công Nghệ Cao, Phường Tân Phú, TP. Thủ
+              Đức, TP. HCM
+            </p>
+          </span>
+          <span class="info">
+            <i class="far fa-envelope icon"></i>
+            Các vấn đề liên quan đến cổ đông liên hệ email:
+            investor@thegioididong.com
+          </span>
+          <span class="info">
+            <i class="fas fa-phone-alt icon"></i>
+            Các vấn đề khác vui lòng gọi số: 02838125960
+          </span>
+        </div>
+        <div class="right">
+          <h3 class="title">Đăng ký để nhận thông tin</h3>
+          <div class="form-sub">
+            <input
+              class="right-input"
+              type="text"
+              placeholder="Nhập email của bạn ở đây..."
+              name=""
+              id=""
+            />
+            <button class="subcribe">Đăng ký</button>
+          </div>
+        </div>
+        <p class="end">
+          Copyright ©2022 All rights reserved | This template is made with by
+          Nguyen Huu Thoai
+        </p>
+      </div>
+      <div class="help">
+        <div class="header">
+          <div class="header__">
+            <img src="../img/favicon_io/favicon.ico" alt="" />
+          </div>
+          <div class="header__title">
+            <h3 class="title">Hổ trợ khách hàng</h3>
+            <p class="desc">Chúng tôi sẽ phản hồi trong giây lát...</p>
+          </div>
+          <i class="fas fa-times close-icon"></i>
+        </div>
+        <div class="body">
+          <span class="staff">Nhân viên TGDD</span>
+          <div class="message">
+            <p class="">
+              &ensp; Chào bạn, TGDD đã sẵn sàng giải đáp thắc mắc cho bạn. Bạn
+              cần tư vấn những vấn đề gì?
+            </p>
+          </div>
+          <button class="advise">Tư vấn sản phẩm</button>
+          <button class="care">Chăm sóc khách hàng</button>
+          <input type="text" placeholder="Hãy nhập gì đó..." class="import" />
+        </div>
+      </div>
+    </div>
+    <script>
+      const help = document.querySelector(".help");
+      const support = document.querySelector(".support");
+      const close = document.querySelector(".close-icon");
+      support.addEventListener("click", function (event) {
+        help.classList.add("is-show");
+        support.classList.add("is-hidden");
+      });
+      close.addEventListener("click", function (event) {
+        help.classList.remove("is-show");
+        support.classList.remove("is-hidden");
+      });
+      // AOS.init();
+    </script>
+    <!-- <div class="footer-column">
+      <h3 class="footer-heading">Products</h3>
+      <ul class="footer-links">
+        <li>
+          <a href="#!" class="footer-link">Packages</a>
+        </li>
+        <li>
+          <a href="#!" class="footer-link">Packages</a>
+        </li>
+        <li>
+          <a href="#!" class="footer-link">Packages</a>
+        </li>
+      </ul>
+    </div> -->
+  </body>
+</html>

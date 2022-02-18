@@ -1,0 +1,145 @@
+
+.form-group {
+    margin: 10px 2px;
+    font-family: sans-serif;
+    text-align: center;
+    /* background-color: transparent; */
+}
+.form-control {
+    margin: 3px 0px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    width: 320px;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+}
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left:600px;
+    margin-top:10px;
+  
+}
+.button:focus {
+    box-shadow: 0 0 3px orangered;
+    color: orangered;
+}
+.for {
+    background-image: url('https://khoanh24.com/gallery/save3?code=k-img2018k-img04k-img23k-imgbackground-powerpoint-dep-cho-bay-thuyet-trinh-chuyen-nghiep-195add5a879d075_f5c72d524f60895be6b1e13dca244aaetype-jpg');
+    background-size: 100% 100%;
+    height: 400px;
+    object-fit: cover;
+}
+/* .support {
+    position: fixed;
+    right: -24px;
+    bottom: 36px;
+    animation: support 1s infinite linear;
+    visibility: visible;
+  }
+  .support__img {
+    transform: translateX(50%);
+    width: 60%;
+    display: inline-block;
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 8px #000);
+  }
+  .support::after {
+    content: "";
+    background-image: linear-gradient(to right, yellow, #ff6651);
+    width: 24px;
+    height: 24px;
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    right: 110px;
+  }
+  .help {
+    width: 340px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 9px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000;
+    filter: drop-shadow(2px 4px 8px #000);
+    visibility: hidden;
+  }
+  .help .header {
+    background-color: #000;
+    color: #fff;
+    padding: 6px 16px;
+    display: flex;
+    align-items: center;
+  }
+  .help .header__title {
+    margin-left: 12px;
+  }
+  .help .header__title .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .help .header__title .desc {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+  .help .header .close-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .help .header .close-icon:hover {
+    transform: scale(1.4);
+  }
+  .help .body {
+    padding: 12px;
+    width: 100%;
+  }
+  .help .body .staff {
+    font-size: 14px;
+  }
+  .help .body .message {
+    border: 1px solid #333;
+    border-radius: 9px;
+    padding: 6px 12px;
+    text-align: justify;
+  }
+  .help .body .advise,
+  .help .body .care {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px 9px;
+    width: 100%;
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  .help .body .advise:hover,
+  .help .body .care:hover {
+    background-color: #ccc;
+    color: #000;
+  }
+  .help .body .import {
+    border-radius: 9px;
+    width: 100%;
+    padding: 6px 12px;
+    border: 2px solid #333;
+    margin-top: 140px;
+    outline: none;
+  }
+  
+  .is-hidden {
+    visibility: hidden;
+  }
+  
+  .is-show {
+    visibility: visible;
+  } */
